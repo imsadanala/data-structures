@@ -30,4 +30,11 @@ public class CustomStack {
 		size++;
 	}
 
+	public void display() {
+		while (top != null) {
+			System.out.println(top.data);
+			top = top.next;
+		}
+	}
+
 }
